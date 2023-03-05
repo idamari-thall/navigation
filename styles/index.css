@@ -1,0 +1,12 @@
+#home {
+    background-color: rgb(246, 84, 84);
+}
+
+@media screen and (max-width: 400px) {
+    .menu__item {
+        position: relative;
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}

@@ -1,0 +1,32 @@
+#about {
+    background-color: rgb(246, 84, 84);
+}
+
+
+/* Vad jag förstår så är det här det som ska hända när skärmen blir under 400px */
+@media screen and (max-width: 400px) {
+    .menu__item {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+    }
+}
+
+/* och det här är vad som ska hända när man trycker på iconen men det händer inte och eftersom jag inte förstår 
+javascript ännu kan jag inte lista ut hur jag ska gå vidare så jag stannar här. */
+@media screen and (max-width: 400px) {
+    .menu__item {
+        position: relative;
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
